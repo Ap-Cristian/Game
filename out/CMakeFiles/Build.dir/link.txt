@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Build.dir/game.cpp.o CMakeFiles/Build.dir/main.cpp.o CMakeFiles/Build.dir/object.cpp.o CMakeFiles/Build.dir/objects.cpp.o CMakeFiles/Build.dir/rc_sprite.cpp.o CMakeFiles/Build.dir/scene.cpp.o CMakeFiles/Build.dir/start_scene.cpp.o -o Build  -l../lib/*.so.2.5.1 
