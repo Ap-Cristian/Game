@@ -16,6 +16,7 @@ RC_sprite::RC_sprite(sf::Vector2f position)
     fadeState = 0;
 
     setSpriteTexture();
+    std::cout<<"StartupSpriteSize: "<< startupSprite.getTexture()->getSize().x<< " , "<< startupSprite.getTexture()->getSize().y <<"\n";
     startupSprite.setOrigin(startupSprite.getOrigin().x + textureImage.getSize().x / 2, startupSprite.getOrigin().y + textureImage.getSize().y / 2);
     startupSprite.setPosition(position);
 

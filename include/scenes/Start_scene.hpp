@@ -5,6 +5,7 @@
 
 #include "../include/SFML/Window.hpp"
 
+#include <SFML/Graphics/RenderWindow.hpp>
 #include <thread>
 
 struct ObjectsInStartScene{
@@ -16,8 +17,8 @@ class Start_scene: public Scene{
 
     public:
         ObjectsInStartScene objects;
-        Start_scene();
+        explicit Start_scene(sf::RenderWindow* rw);
         void RC_SpriteAnimator();
-        void draw(sf::RenderWindow *window);
+        void draw();
         ~Start_scene();
 };

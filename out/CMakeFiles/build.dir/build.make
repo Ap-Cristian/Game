@@ -83,10 +83,24 @@ CMakeFiles/build.dir/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/build.dir/game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qwertty/Documents/projects/c++/sfml/src/game.cpp -o CMakeFiles/build.dir/game.cpp.s
 
+CMakeFiles/build.dir/gamekeyhandler.cpp.o: CMakeFiles/build.dir/flags.make
+CMakeFiles/build.dir/gamekeyhandler.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/gamekeyhandler.cpp
+CMakeFiles/build.dir/gamekeyhandler.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/build.dir/gamekeyhandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/gamekeyhandler.cpp.o -MF CMakeFiles/build.dir/gamekeyhandler.cpp.o.d -o CMakeFiles/build.dir/gamekeyhandler.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/gamekeyhandler.cpp
+
+CMakeFiles/build.dir/gamekeyhandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/build.dir/gamekeyhandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qwertty/Documents/projects/c++/sfml/src/gamekeyhandler.cpp > CMakeFiles/build.dir/gamekeyhandler.cpp.i
+
+CMakeFiles/build.dir/gamekeyhandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/build.dir/gamekeyhandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qwertty/Documents/projects/c++/sfml/src/gamekeyhandler.cpp -o CMakeFiles/build.dir/gamekeyhandler.cpp.s
+
 CMakeFiles/build.dir/main.cpp.o: CMakeFiles/build.dir/flags.make
 CMakeFiles/build.dir/main.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/main.cpp
 CMakeFiles/build.dir/main.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/build.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/build.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/main.cpp.o -MF CMakeFiles/build.dir/main.cpp.o.d -o CMakeFiles/build.dir/main.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/main.cpp
 
 CMakeFiles/build.dir/main.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/build.dir/main.cpp.s: cmake_force
 CMakeFiles/build.dir/object.cpp.o: CMakeFiles/build.dir/flags.make
 CMakeFiles/build.dir/object.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/object.cpp
 CMakeFiles/build.dir/object.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/build.dir/object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/build.dir/object.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/object.cpp.o -MF CMakeFiles/build.dir/object.cpp.o.d -o CMakeFiles/build.dir/object.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/object.cpp
 
 CMakeFiles/build.dir/object.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/build.dir/object.cpp.s: cmake_force
 CMakeFiles/build.dir/objects.cpp.o: CMakeFiles/build.dir/flags.make
 CMakeFiles/build.dir/objects.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/objects.cpp
 CMakeFiles/build.dir/objects.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/build.dir/objects.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/build.dir/objects.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/objects.cpp.o -MF CMakeFiles/build.dir/objects.cpp.o.d -o CMakeFiles/build.dir/objects.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/objects.cpp
 
 CMakeFiles/build.dir/objects.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/build.dir/objects.cpp.s: cmake_force
 CMakeFiles/build.dir/rc_sprite.cpp.o: CMakeFiles/build.dir/flags.make
 CMakeFiles/build.dir/rc_sprite.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/rc_sprite.cpp
 CMakeFiles/build.dir/rc_sprite.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/build.dir/rc_sprite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/build.dir/rc_sprite.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/rc_sprite.cpp.o -MF CMakeFiles/build.dir/rc_sprite.cpp.o.d -o CMakeFiles/build.dir/rc_sprite.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/rc_sprite.cpp
 
 CMakeFiles/build.dir/rc_sprite.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/build.dir/rc_sprite.cpp.s: cmake_force
 CMakeFiles/build.dir/scene.cpp.o: CMakeFiles/build.dir/flags.make
 CMakeFiles/build.dir/scene.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/scene.cpp
 CMakeFiles/build.dir/scene.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/build.dir/scene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/build.dir/scene.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/scene.cpp.o -MF CMakeFiles/build.dir/scene.cpp.o.d -o CMakeFiles/build.dir/scene.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/scene.cpp
 
 CMakeFiles/build.dir/scene.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/build.dir/scene.cpp.s: cmake_force
 CMakeFiles/build.dir/start_scene.cpp.o: CMakeFiles/build.dir/flags.make
 CMakeFiles/build.dir/start_scene.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/start_scene.cpp
 CMakeFiles/build.dir/start_scene.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/build.dir/start_scene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/build.dir/start_scene.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/start_scene.cpp.o -MF CMakeFiles/build.dir/start_scene.cpp.o.d -o CMakeFiles/build.dir/start_scene.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/start_scene.cpp
 
 CMakeFiles/build.dir/start_scene.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/build.dir/start_scene.cpp.s: cmake_force
 CMakeFiles/build.dir/test_scene.cpp.o: CMakeFiles/build.dir/flags.make
 CMakeFiles/build.dir/test_scene.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/test_scene.cpp
 CMakeFiles/build.dir/test_scene.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/build.dir/test_scene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/build.dir/test_scene.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/test_scene.cpp.o -MF CMakeFiles/build.dir/test_scene.cpp.o.d -o CMakeFiles/build.dir/test_scene.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/test_scene.cpp
 
 CMakeFiles/build.dir/test_scene.cpp.i: cmake_force
@@ -181,21 +195,38 @@ CMakeFiles/build.dir/test_scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/build.dir/test_scene.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qwertty/Documents/projects/c++/sfml/src/test_scene.cpp -o CMakeFiles/build.dir/test_scene.cpp.s
 
+CMakeFiles/build.dir/world_editor.cpp.o: CMakeFiles/build.dir/flags.make
+CMakeFiles/build.dir/world_editor.cpp.o: /home/qwertty/Documents/projects/c++/sfml/src/world_editor.cpp
+CMakeFiles/build.dir/world_editor.cpp.o: CMakeFiles/build.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/build.dir/world_editor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/build.dir/world_editor.cpp.o -MF CMakeFiles/build.dir/world_editor.cpp.o.d -o CMakeFiles/build.dir/world_editor.cpp.o -c /home/qwertty/Documents/projects/c++/sfml/src/world_editor.cpp
+
+CMakeFiles/build.dir/world_editor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/build.dir/world_editor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qwertty/Documents/projects/c++/sfml/src/world_editor.cpp > CMakeFiles/build.dir/world_editor.cpp.i
+
+CMakeFiles/build.dir/world_editor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/build.dir/world_editor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qwertty/Documents/projects/c++/sfml/src/world_editor.cpp -o CMakeFiles/build.dir/world_editor.cpp.s
+
 # Object files for target build
 build_OBJECTS = \
 "CMakeFiles/build.dir/game.cpp.o" \
+"CMakeFiles/build.dir/gamekeyhandler.cpp.o" \
 "CMakeFiles/build.dir/main.cpp.o" \
 "CMakeFiles/build.dir/object.cpp.o" \
 "CMakeFiles/build.dir/objects.cpp.o" \
 "CMakeFiles/build.dir/rc_sprite.cpp.o" \
 "CMakeFiles/build.dir/scene.cpp.o" \
 "CMakeFiles/build.dir/start_scene.cpp.o" \
-"CMakeFiles/build.dir/test_scene.cpp.o"
+"CMakeFiles/build.dir/test_scene.cpp.o" \
+"CMakeFiles/build.dir/world_editor.cpp.o"
 
 # External object files for target build
 build_EXTERNAL_OBJECTS =
 
 build: CMakeFiles/build.dir/game.cpp.o
+build: CMakeFiles/build.dir/gamekeyhandler.cpp.o
 build: CMakeFiles/build.dir/main.cpp.o
 build: CMakeFiles/build.dir/object.cpp.o
 build: CMakeFiles/build.dir/objects.cpp.o
@@ -203,13 +234,14 @@ build: CMakeFiles/build.dir/rc_sprite.cpp.o
 build: CMakeFiles/build.dir/scene.cpp.o
 build: CMakeFiles/build.dir/start_scene.cpp.o
 build: CMakeFiles/build.dir/test_scene.cpp.o
+build: CMakeFiles/build.dir/world_editor.cpp.o
 build: CMakeFiles/build.dir/build.make
 build: /usr/lib/libsfml-graphics.so.2.5.1
 build: /usr/lib/libsfml-audio.so.2.5.1
 build: /usr/lib/libsfml-window.so.2.5.1
 build: /usr/lib/libsfml-system.so.2.5.1
 build: CMakeFiles/build.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qwertty/Documents/projects/c++/sfml/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable build"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/build.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/build.dir/game.cpp.o"
   "CMakeFiles/build.dir/game.cpp.o.d"
+  "CMakeFiles/build.dir/gamekeyhandler.cpp.o"
+  "CMakeFiles/build.dir/gamekeyhandler.cpp.o.d"
   "CMakeFiles/build.dir/main.cpp.o"
   "CMakeFiles/build.dir/main.cpp.o.d"
   "CMakeFiles/build.dir/object.cpp.o"
@@ -15,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/build.dir/start_scene.cpp.o.d"
   "CMakeFiles/build.dir/test_scene.cpp.o"
   "CMakeFiles/build.dir/test_scene.cpp.o.d"
+  "CMakeFiles/build.dir/world_editor.cpp.o"
+  "CMakeFiles/build.dir/world_editor.cpp.o.d"
   "build"
   "build.pdb"
 )

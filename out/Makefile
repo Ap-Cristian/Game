@@ -153,6 +153,30 @@ game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/game.cpp.s
 .PHONY : game.cpp.s
 
+gamekeyhandler.o: gamekeyhandler.cpp.o
+.PHONY : gamekeyhandler.o
+
+# target to build an object file
+gamekeyhandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/gamekeyhandler.cpp.o
+.PHONY : gamekeyhandler.cpp.o
+
+gamekeyhandler.i: gamekeyhandler.cpp.i
+.PHONY : gamekeyhandler.i
+
+# target to preprocess a source file
+gamekeyhandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/gamekeyhandler.cpp.i
+.PHONY : gamekeyhandler.cpp.i
+
+gamekeyhandler.s: gamekeyhandler.cpp.s
+.PHONY : gamekeyhandler.s
+
+# target to generate assembly for a file
+gamekeyhandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/gamekeyhandler.cpp.s
+.PHONY : gamekeyhandler.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -321,6 +345,30 @@ test_scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/test_scene.cpp.s
 .PHONY : test_scene.cpp.s
 
+world_editor.o: world_editor.cpp.o
+.PHONY : world_editor.o
+
+# target to build an object file
+world_editor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/world_editor.cpp.o
+.PHONY : world_editor.cpp.o
+
+world_editor.i: world_editor.cpp.i
+.PHONY : world_editor.i
+
+# target to preprocess a source file
+world_editor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/world_editor.cpp.i
+.PHONY : world_editor.cpp.i
+
+world_editor.s: world_editor.cpp.s
+.PHONY : world_editor.s
+
+# target to generate assembly for a file
+world_editor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/world_editor.cpp.s
+.PHONY : world_editor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -333,6 +381,9 @@ help:
 	@echo "... game.o"
 	@echo "... game.i"
 	@echo "... game.s"
+	@echo "... gamekeyhandler.o"
+	@echo "... gamekeyhandler.i"
+	@echo "... gamekeyhandler.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -354,6 +405,9 @@ help:
 	@echo "... test_scene.o"
 	@echo "... test_scene.i"
 	@echo "... test_scene.s"
+	@echo "... world_editor.o"
+	@echo "... world_editor.i"
+	@echo "... world_editor.s"
 .PHONY : help
 
 

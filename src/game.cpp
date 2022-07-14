@@ -1,26 +1,27 @@
 #include "../include/game/Game.hpp"
 
-#include <thread>
-#include <chrono>
-
 //Constructor
 Game::Game(){
-
-    initVariables();
+    variablesInit();
     windowInit();    
     objectInit();
     gameLoop();
 }
 
 //Function
-void Game::initVariables(){
+void Game::variablesInit(){
     this->window = nullptr;
+
 }
 
 void Game::objectInit(){
     // sUp.setPosition((sf::Vector2f)getCenterOfWindow());
-    ss.objects.spriteObj.setPosition((sf::Vector2f)getCenterOfWindow());
+    ss = new Start_scene(window);
+    ss->objects.spriteObj.setPosition((sf::Vector2f)getCenterOfWindow());
     currentScene = startscene;
+
+    ts = new Test_scene(window);
+    ts->toggleEditor(); //TOGGLE ON
 }
 
 int Game::windowInit(){
@@ -38,6 +39,10 @@ void Game::pollEvents(){
         case sf::Event::EventType::Closed:
             this->window->close();
             break;
+
+        case sf::Event::EventType::KeyPressed:
+            mainHandler.handle(this->windowEvent, this->window);
+            break;
         
         default:
 
@@ -48,29 +53,38 @@ void Game::pollEvents(){
 
 void Game::draw(){
     //TO DO:
-    //make drawables data structure
-    //pop startup logo after animation has ended
+    //core dumped if windowMode is changed consecutively
+    //figure out keyHandling
+    //make world editor not look retarded
+    //maybe work on adding actual tiles to world editor
+
     
     std::this_thread::sleep_for(std::chrono::milliseconds(50));
 
     switch (currentScene) {
         case startscene:
-            if(ss.objects.spriteObj.getFadeState() != -1){
-                ss.draw(this->window);
-                refreshColor = ss.refreshColor;
+            if(ss->objects.spriteObj.getFadeState() != -1){
+                ss->setCurrentScene(true);
+                ss->updateViewSize();
+                ss->draw();
+                refreshColor = ss->refreshColor;
             }
             else{
+                ss->setCurrentScene(false);
                 currentScene = testscene;
             }
+            
             break;
 
         case testscene:
-            refreshColor = ts.refreshColor;
+            ts->setCurrentScene(true);
+            ts->draw();
+            refreshColor = ts->refreshColor;
+            
             break;
             
     }
 
-    
     this->window->display();
     this->window->clear(refreshColor);
     refreshColor = sf::Color::Black;
@@ -97,4 +111,5 @@ sf::Vector2u Game::getCenterOfWindow(){
 //Destructor
 Game::~Game(){
     delete this->window; 
+    delete this->ts;
 }
